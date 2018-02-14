@@ -1,0 +1,10 @@
+---
+layout: post
+title: 0.9.8
+categories: update
+---
+
+- New member list
+- Updated appointment view
+- Added ability to link from outbound to inside the app
+- Fixed 14 bugs
