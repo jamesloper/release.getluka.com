@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{{content}}
+
+{% for node in site.posts %}
+<article>
+	<h3><a href="{{node.url}}">{{node.title}}</a></h3>
+	{{node.content}}
+	<div class="author">Posted on {{page.date | date: "%B %-d, %Y"}}</div>
+</article>
+{% endfor %}
