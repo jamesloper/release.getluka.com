@@ -6,13 +6,18 @@ a {color:#fc4a39; text-decoration:none; transition:color .5s;}
 a:hover {color:#666;}
 h1 {font-size:28px; margin-bottom:20px; font-style:italic;}
 h3 {margin-bottom:10px;}
+
+.content ul {list-style-type:none; padding-left:26px;}
+.content li {position:relative;}
+.content li:before {content: "\2605"; font-size:10px; position:absolute; left: -18px; top:1px; color:goldenrod; text-shadow:0 0 1px gold;}
+
 .content {margin-bottom:20px;}
 .author {font-size:12px; margin-bottom:20px;}
 .list {padding:0; list-style-type:none;}
 blockquote {padding:10px; background:#f5f7f9; margin:0; margin-bottom:20px; font-size:13px; border-radius:2px; border-left:2px solid #fc4a39;}
 blockquote p {margin:0;}
-.attachments {margin-bottom:20px;}
-.attachment {display:inline-block; text-align:center; background-color:#fff; border:1px solid #eee; margin-right:10px; min-width:180px;}
+.attachments {margin-bottom:10px;}
+.attachment {display:inline-block; text-align:center; background-color:#fff; border:1px solid #eee; margin-right:10px; min-width:180px; margin-bottom:10px;}
 .attachment:hover {background-color:#f5f7f9;}
 .attachment-img {height:150px; display:block; margin:0 auto;}
 .attachment-desc {font-size:12px; font-weight:bold; color: #666; white-space:nowrap; background-color:#f5f7f9; width:100%; border-top:1px solid #eee; padding:5px 20px; display:block; position:relative;}
