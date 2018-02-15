@@ -4,7 +4,9 @@ title: 0.9.8
 categories: update
 ---
 
-- New member list
+- New member list attached!
 - Updated appointment view
 - Added ability to link from outbound to inside the app
+- Optimized Shared Locals list for much larger capacity 
+- Fixed issue where push notifications would not open the the app with context
 - Fixed 14 bugs
